@@ -1,0 +1,30 @@
+{
+  "name": "nodeJS",
+  "version": "0.0.1",
+  "description": "NodeJS cours",
+  "main": "index.js",
+  "authors": {
+    "name": "Michalet Stefan",
+    "email": "stefan@michalet.biz"
+  },
+  "repository": "/nodeJS",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "dev:webstorm": "/node_modules/vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@vuepress/plugin-active-header-links": "^1.7.1",
+    "@vuepress/plugin-back-to-top": "^1.7.1",
+    "@vuepress/plugin-medium-zoom": "^1.7.1",
+    "vuepress": "^1.5.3",
+    "vuepress-plugin-code-copy": "^1.0.6",
+    "vuepress-plugin-container": "^2.1.5",
+    "vuepress-plugin-playground": "^2.0.0",
+    "vuepress-plugin-smooth-scroll": "0.0.10"
+  },
+  "devDependencies": {
+    "vuepress-plugin-element-ui": "^1.1.0"
+  }
+}
